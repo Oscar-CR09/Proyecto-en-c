@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+     int var=3;
+	 for(int x=1; x<=200; x++);
+	 {
+		 printf("%d",var);
+	     var=var+2;
+		 printf("%d",var);
+		 
+		 
+	 }
+	 
+	return 0;
+}
+
