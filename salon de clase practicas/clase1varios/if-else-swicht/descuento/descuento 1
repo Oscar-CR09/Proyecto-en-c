@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <conio.h>
+int main(int argc, char *argv[]) {
+	int pr=0, pdes=0;
+	printf("\n Introduce el precio del pantalon:");
+	scanf("\n %d"&pr);
+	
+	return 0;
+}
+
