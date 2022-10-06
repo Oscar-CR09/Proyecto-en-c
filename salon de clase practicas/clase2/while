@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+	int t=0,s=0,n=0;
+	printf("ingrese el sueldo \n ");
+	
+	scanf("%d",&s);
+	
+	while(s!=0)
+	{
+		n=n+s;
+		t++;
+		
+		printf("ingrese el sueldo \n ");
+		scanf("%d",&s);
+		
+	}
+	printf("El nuemro de empleados son: %d ",t);
+	printf("La nomina total es: %d ",n);
+	getch ();
+}
+

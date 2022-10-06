@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <conio.h>
+#include <stdlib.h>
+
+int main() {
+	int peso,edad,promedio,ni�os,jovenes,adulto,x;
+	for(int x=1;x>=50;x++)
+	{
+		
+	printf("Este programa realiza un muestreo de promedio de peso:");
+	printf("Ingresa tu edad");
+	scanf("%d",&edad);
+	if (edad<=12)
+	{
+		printf("Ingrese su peso:");
+		scanf("%d",&peso);
+		peso++;		
+	}
+	
+	}
+	
+	return 0;
+}
+
